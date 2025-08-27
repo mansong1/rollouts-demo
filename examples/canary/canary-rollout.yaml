@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: canary-demo
-        image: mansong/rollouts-demo:green
+        image: mansong/rollouts-demo:orange
         imagePullPolicy: Always
         ports:
         - name: http
